@@ -1,0 +1,27 @@
+stages:
+  - test
+  - build
+
+test:
+  stage: build
+  tags:
+    - officalweb
+  only:
+    - test
+  script:
+    - whoami
+    - rm -rf /www/basebot
+    - mkdir -p /www/basebot
+    - cp -rf ./* /www/basebot
+
+build:
+  stage: build
+  tags:
+    - officalweb
+  only:
+    - main
+  script:
+    - whoami
+    - rm -rf /www/basebot
+    - mkdir -p /www/basebot
+    - cp -rf ./* /www/basebot

@@ -1,0 +1,42 @@
+{
+  "header": {
+    "height": 60
+  },
+  "tags": {
+    "visible": true,
+    "height": 50
+  },
+  "naiveThemeOverrides": {
+    "common": {
+      "primaryColor": "rgba(48, 21, 255, 1)",
+      "primaryColorHover": "rgba(48, 21, 255, 1)",
+      "primaryColorPressed": "#35b9e0",
+      "primaryColorSuppl": "rgba(48, 21, 255, 1)",
+      "primaryItemColorActive": "rgba(77, 189, 223, 0.15)",
+
+      "infoColor": "rgba(48, 21, 255, 1)",
+      "infoColorHover": "rgba(48, 21, 255, 1)",
+      "infoColorPressed": "#35b9e0",
+      "infoColorSuppl": "rgba(48, 21, 255, 1)",
+
+      "warningColor": "#fa8c16",
+      "warningColorHover": "#ffa940",
+      "warningColorPressed": "#d46b08",
+      "warningColorSuppl": "#ffa940",
+
+      "errorColor": "#f5222d",
+      "errorColorHover": "#ff4d4f",
+      "errorColorPressed": "#cf1322",
+      "errorColorSuppl": "#ff4d4f",
+
+      "scrollbarHeight": "10px",
+      "scrollbarWidth": "10px",
+
+      "textColorDisabled": "#969696"
+
+    },
+    "Tree": {
+      "nodeColorActive": "rgba(77,189,223,.2)"
+    }
+  }
+}
